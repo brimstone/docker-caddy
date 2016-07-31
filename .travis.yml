@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.6
+
+services:
+  - docker
+
+script:
+  - git clone https://github.com/brimstone/projectbuilder
+  - export PROJECTBUILDER=$PWD/projectbuilder
+  - make travis
