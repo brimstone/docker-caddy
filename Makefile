@@ -2,7 +2,7 @@ BINARY = caddy
 
 GOPATH = ${PWD}
 
-PRECHECK += fix-filemanager
+CHECK = fix-filemanager
 
 fix-filemanager:
 	go generate -v github.com/hacdias/caddy-filemanager
