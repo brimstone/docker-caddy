@@ -7,6 +7,7 @@ services:
   - docker
 
 script:
+  - export PATH=$PATH:$PWD/bin
   - git clone https://github.com/brimstone/projectbuilder
   - export PROJECTBUILDER=$PWD/projectbuilder
   - make travis
