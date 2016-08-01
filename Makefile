@@ -2,6 +2,8 @@ BINARY = caddy
 
 GOPATH = ${PWD}
 
+SETUP =
+
 CHECK = fix-filemanager
 
 fix-filemanager:
