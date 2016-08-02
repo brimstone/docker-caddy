@@ -1,3 +1,6 @@
 [submodule "src/github.com/hacdias/caddy-filemanager"]
 	path = src/github.com/hacdias/caddy-filemanager
 	url = https://github.com/hacdias/caddy-filemanager
+[submodule "src/github.com/spf13/hugo"]
+	path = src/github.com/spf13/hugo
+	url = https://github.com/spf13/hugo
