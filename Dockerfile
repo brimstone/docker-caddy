@@ -13,5 +13,3 @@ WORKDIR /www
 COPY identtrust.root.pem /etc/ssl/certs/ca-certificates.crt
 
 COPY caddy /caddy
-
-COPY hugo /hugo

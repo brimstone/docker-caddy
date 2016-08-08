@@ -8,7 +8,6 @@ package main
 import (
 	_ "github.com/BTBurke/caddy-jwt"
 	_ "github.com/brimstone/caddy-consul"
-	_ "github.com/hacdias/caddy-hugo"
 	"github.com/mholt/caddy/caddy/caddymain"
 )
 
